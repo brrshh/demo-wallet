@@ -43,7 +43,7 @@ class IntegrationTest {
 
     //Create a wallet with amoun 500, execute add and substract amounts and check finish amount.
     @Test
-    void testParalelExecution() {
+    void testParallelExecution() {
         Integer walletId = 1;
         ResponseEntity<Void> response = addAmount(walletId, new BigDecimal(500));
         assertEquals(HttpStatus.OK, response.getStatusCode());
