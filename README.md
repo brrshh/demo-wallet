@@ -1,8 +1,8 @@
 1. By default, system create  wallet with id = 1,2,3 and amount 0
 
 2. API:
-a. add money to the wallet:
 
+a. add money to the wallet:
     
     POST localhost:8080/wallet
         {
